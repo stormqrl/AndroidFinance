@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">AndroidFinance</string>
+
+    <!-- Navigation -->
+    <string name="nav_records_list">Lista de Registros</string>
+    <string name="nav_add_record">Adicionar Registro</string>
+    <string name="nav_edit_record">Editar Registro</string>
+
+    <!-- Form Fields -->
+    <string name="description">Descrição</string>
+    <string name="amount">Valor</string>
+    <string name="date">Data</string>
+    <string name="category">Categoria</string>
+    <string name="type">Tipo</string>
+    <string name="favorite">Favorito</string>
+
+    <!-- Record Types -->
+    <string name="income">Receita</string>
+    <string name="expense">Despesa</string>
+
+    <!-- Categories -->
+    <string-array name="categories">
+        <item>Alimentação</item>
+        <item>Transporte</item>
+        <item>Moradia</item>
+        <item>Saúde</item>
+        <item>Educação</item>
+        <item>Lazer</item>
+        <item>Compras</item>
+        <item>Salário</item>
+        <item>Freelance</item>
+        <item>Investimentos</item>
+        <item>Outros</item>
+    </string-array>
+
+    <!-- Buttons -->
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+    <string name="clear_filters">Limpar Filtros</string>
+    <string name="apply_filters">Aplicar Filtros</string>
+
+    <!-- Search and Filters -->
+    <string name="search_hint">Buscar por descrição...</string>
+    <string name="filter_by_category">Filtrar por categoria</string>
+    <string name="filter_by_type">Filtrar por tipo</string>
+    <string name="filter_by_amount">Filtrar por valor</string>
+    <string name="filter_by_date">Filtrar por data</string>
+    <string name="show_favorites_only">Apenas favoritos</string>
+    <string name="sort_by">Ordenar por</string>
+
+    <!-- Sort Options -->
+    <string name="sort_date_desc">Data (mais recente)</string>
+    <string name="sort_amount_asc">Valor (menor)</string>
+    <string name="sort_amount_desc">Valor (maior)</string>
+
+    <!-- Messages -->
+    <string name="record_saved">Registro salvo com sucesso</string>
+    <string name="record_deleted">Registro excluído</string>
+    <string name="error_saving">Erro ao salvar registro</string>
+    <string name="error_loading">Erro ao carregar dados</string>
+    <string name="no_records_found">Nenhum registro encontrado</string>
+
+    <!-- Validation -->
+    <string name="error_description_required">Descrição é obrigatória</string>
+    <string name="error_amount_required">Valor é obrigatório</string>
+    <string name="error_amount_invalid">Valor deve ser um número válido</string>
+    <string name="error_amount_positive">Valor deve ser maior que zero</string>
+    <string name="error_category_required">Categoria é obrigatória</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_favorite_icon">Ícone de favorito</string>
+    <string name="cd_delete_record">Excluir registro</string>
+    <string name="cd_edit_record">Editar registro</string>
+    <string name="cd_add_record">Adicionar registro</string>
+</resources>

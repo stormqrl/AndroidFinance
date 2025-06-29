@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recordListFragment">
+
+    <fragment
+        android:id="@+id/recordListFragment"
+        android:name="com.example.androidfinance.presentation.fragment.RecordListFragment"
+        android:label="@string/nav_records_list"
+        tools:layout="@layout/fragment_record_list">
+
+        <action
+            android:id="@+id/action_recordListFragment_to_recordFormFragment"
+            app:destination="@id/recordFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordFormFragment"
+        android:name="com.example.androidfinance.presentation.fragment.RecordFormFragment"
+        android:label="@string/nav_add_record"
+        tools:layout="@layout/fragment_record_form">
+
+        <argument
+            android:name="recordId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/action_recordFormFragment_to_recordListFragment"
+            app:destination="@id/recordListFragment"
+            app:popUpTo="@id/recordListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+</navigation>
