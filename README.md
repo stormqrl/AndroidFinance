@@ -49,7 +49,7 @@ O AndroidFinance é um aplicativo de controle financeiro desenvolvido em Kotlin 
 
 1. **Clone o repositório**:
    ```bash
-   git clone [URL_DO_REPOSITORIO]
+   git clone "https://github.com/stormqrl/AndroidFinance.git"
    cd AndroidFinance
    ```
 
